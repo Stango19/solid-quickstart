@@ -1,6 +1,6 @@
 [build]
-  command = "vite build"
-  functions = "netlify/functions"
-  publish = "dist"
+  command = "npm run build" # Replace with your build command
+  publish = "dist" # Replace with your build output directory
 
-  ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
+[dev]
+  framework = "solid" # Specify your framework if using Netlify Dev
