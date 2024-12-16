@@ -1,3 +1,7 @@
+.sb-component.sb-component-header {
+  display: none;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
