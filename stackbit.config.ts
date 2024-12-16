@@ -1,6 +1,6 @@
 export default {
-  projectId: "your-project-id", // Replace with your Stackbit project ID
-  devCommand: "npm run dev",     // Replace with the correct command for your project
-  buildCommand: "npm run build", // Replace with your build command, if necessary
-  siteName: "your-site-name",    // Replace with your site name
+  projectId: "your-project-id",  // Replace with your actual Stackbit project ID
+  devCommand: "npm run dev",      // Since your package.json uses 'vite' for dev
+  buildCommand: "npm run build",  // Uses 'vite build' for building the site
+  siteName: "your-site-name",     // Your site name or project name
 };
